@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .head {
+            font: italic 3vw monospace;
+            color: rgb(4, 207, 207);
+            /* Neon blue color */
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+        }
+
+        .content {
+            display: block;
+            width: 37vw;
+            font-size: 2.6vw;
+            text-align: justify;
+        }
+
+        #box {
+            display: block;
+            width: 70vw;
+            height: 27vw;
+            margin: auto;
+        }
+
+        #dp {
+            display: block;
+            height: 25vw;
+            width: 26vw;
+            position: relative;
+            top: -29vw;
+            left: 43vw;
+            border-radius: 50%;
+        }
+
+        #contact {
+            border: 2px solid aqua;
+        }
+
+        .container {
+            display: block;
+            text-align: center;
+            background-color: rgb(2 134 231);
+            height: max-content;
+            padding: 5px;
+            margin: 100px 0px 0px 0px;
+
+        }
+
+        input {
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 34vw;
+        }
+
+        textarea {
+            width: 34vw;
+            height: 7vw;
+            padding: 10px;
+            resize: none;
+        }
+
+        .but {
+            width: 3vw;
+            height: 3vw;
+        }
+
+
+        #right {
+            display: inline;
+            margin: auto;
+        }
+
+        li {
+            display: inline;
+            margin: 5px;
+            position: relative;
+            top: 5px;
+        }
+
+        .i {
+            width: 15vw;
+            height: 15vw;
+
+        }
+
+        .p {
+            width: 20vw;
+            height: fit-content;
+            padding: 3px;
+            border: 2px solid aqua;
+            margin: 5px;
+            display: inline-block;
+            box-shadow: 5px 5px 5px yellow;
+            border-radius: 10px;
+        }
+
+        .project {
+            text-align: center;
+            width: 80vw;
+            height: max-content;
+            display: block;
+            margin: 30px auto;
+            padding: 5px;
+        }
+        .button{
+            border: 7px inset rgb(144, 144, 247);
+            display: block;
+            width:fit-content;
+            margin: auto;
+            text-align: center;
+            font: bold 20px monospace;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .headings {
+            padding: 3px;
+            display: block;
+            margin: 10px auto;
+            border: 2px solid #0ff;
+            box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+            border-radius: 10px;
+        }
+        .p:hover{
+            box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+        }
+        .headings:hover{
+             box-shadow: 0 0 10px rgb(242, 255, 0), 0 0 20px rgb(242, 255, 0), 0 0 30px rgb(242, 255, 0);
+        }
+        .button:hover{
+            box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+        
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="box">
+        <p class="head">Hi! This is Omkar Kumar</p>
+        <p class="content">I'm a sophomore at NIT Patna,
+            dedicated for enhancing my skills and contributing to social services.
+            Eager to explore new technologies,
+            I strive for academic excellence and community betterment.I am open to Work.</p>
+        <img id="dp" src="wb.png" alt="">
+    </div>
+    <div class="project" id="p1">
+        <p class="headings">MY PROJECTS</p>
+        <div class="p">
+            <h4>Banking System</h4>
+            <a href="">
+                <p>Github</p>
+            </a>
+            <img class="i" src="bank.png" alt="">
+        </div>
+        <div class="p">
+            <h4>Banking System</h4>
+            <a href="">
+                <p>Github</p>
+            </a>
+            <img class="i" src="bank.png" alt="">
+        </div>
+        <div class="p">
+            <h4>Banking System</h4>
+            <a href="">
+                <p>Github</p>
+            </a>
+            <img class="i" src="bank.png" alt="">
+        </div>
+    </div>
+    <div class="project" id="p2">
+        <p class="headings">Professional Experience</p>
+        <div class="p">
+            <h4>IEEE NIT PATNA</h4>
+            <h5>Web Team member</h5>
+            <h6>From jan 2023 till NOW</h6>
+
+        </div>
+        <div class="p">
+            <h4>ecell NIT PATNA</h4>
+            <h5>Exec. Web Memeber</h5>
+            <h6>From March 2023 till NOW</h6>
+
+        </div>
+        <div class="p">
+            <h4>Chegg India</h4>
+            <h5>Subject Matter Expert</h5>
+            <h6>From Nov. 2022 till NOW</h6>
+
+        </div>
+    </div>
+    <div class="button">
+        <a href="SHORTCV 1.docx">DOWNLOAD RESUME</a>
+    </div>
+    <div class="container">
+        <h3>CONTACT ME</h3>
+        <form name="submit-to-google-sheet" >
+            <input type="text" name="name" placeholder="Enter Name" required><br>
+            <input type="email" name="email" placeholder="Enter email" required><br>
+            <textarea name="massage" placeholder=" Enter Massage" width="10" height="30" required></textarea><br>
+            <button type="submit" id="sub">Submit</button>
+        </form>
+
+        <div id="nav">
+            <img src="" alt="" id="logo">
+            <div id="right">
+                <li><a href="https://www.instagram.com/kumaromkar01/"><img class="but" src="instagram.png" alt=""></a></li>
+                <li><a href="kumaromkar1311@gmail.com"><img class="but" src="gmail.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/omkarkumar01/"><img class="but" src="linkedin.png" alt=""></a></li>
+            </div>
+        </div>
+    </div>
+     
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx8jxbTaYS9ciDITax413-x-vVhd03ypsKrw4zvSw8UoKtHebx0MQr0qI9dBWPA4lpD/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+</body>
+
+</html>
